@@ -1,0 +1,6 @@
+﻿  main.cpp
+LINK : warning LNK4075: '/INCREMENTAL'이(가) '/OPT:ICF' 사양으로 인해 무시됩니다.
+main.obj : warning LNK4075: '/EDITANDCONTINUE'이(가) '/OPT:ICF' 사양으로 인해 무시됩니다.
+  CubeRayTracer.vcxproj -> C:\Users\User\Desktop\과제 만드는데 필요한 개념들\CubeRayTracer\x64\Debug\CubeRayTracer.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
