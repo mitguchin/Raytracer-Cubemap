@@ -69,12 +69,12 @@ namespace hlab
 
 			objects.push_back(ground);
 
-			auto texRight = std::make_shared<Texture>("posx.jpg");
-			auto texLeft = std::make_shared<Texture>("negx.jpg");
-			auto texTop = std::make_shared<Texture>("posy.jpg");
-			auto texBottom = std::make_shared<Texture>("negy.jpg");
-			auto texFront = std::make_shared<Texture>("posz.jpg");
-			auto texBack = std::make_shared<Texture>("negz.jpg");
+			auto texRight = std::make_shared<Texture>("image/posx.jpg");
+			auto texLeft = std::make_shared<Texture>("image/negx.jpg");
+			auto texTop = std::make_shared<Texture>("image/posy.jpg");
+			auto texBottom = std::make_shared<Texture>("image/negy.jpg");
+			auto texFront = std::make_shared<Texture>("image/posz.jpg");
+			auto texBack = std::make_shared<Texture>("image/negz.jpg");
 
 			auto front = make_shared<Square>(
 				vec3(-10.0f, 10.0f, 10.0f),
