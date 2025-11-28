@@ -12,3 +12,14 @@ This project is the simple example of "CPU Raytracer".
 
 **Skybox**
 - Six Squares(front, back, left, right, top, bottom)
+- Use cube map immages('posx/negx/posy/negy/posz/negz")
+
+**Materials & Lighting**
+- Ambient / Diffuse / Specular(Phong Shading)
+- Mirror reflection
+- Refraction(with IOR = 1.5)
+- Texture sampling with "SampleLinear"
+
+**Camera**
+- Position (0,0,-1.5)
+- 
